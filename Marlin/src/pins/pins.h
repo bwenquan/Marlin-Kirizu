@@ -806,6 +806,8 @@
   #include "stm32f4/pins_I3DBEEZ9.h"                // STM32F4                              env:I3DBEEZ9_V1
 #elif MB(MELLOW_FLY_E3_V2)
   #include "stm32f4/pins_MELLOW_FLY_E3_V2.h"        // STM32F4                              env:FLY_E3_V2
+#elif MB(KIRIZU_GEN6A)
+  #include "stm32f4/pins_KIRIZU_GEN6A.h"        // STM32F4                              env:KIRIZU_GEN6A
 
 //
 // ARM Cortex-M7
